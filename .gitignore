@@ -1,0 +1,42 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# Node / FE
+node_modules/
+.vite/
+FE/dist/
+*.log
+
+# Database / dữ liệu local
+*.sqlite3
+*.db
+pgdata/
+DB/dumps/
+
+# Eval output (giữ lại bộ câu hỏi, bỏ kết quả chạy)
+BE/eval/results/
+
+# IDE, OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
